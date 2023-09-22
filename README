@@ -1,0 +1,48 @@
+# Currency Converter Web Application
+
+This is a simple web application for converting currencies using jQuery, AJAX, and PHP with Bootstrap for styling the front-end.
+
+## Features
+- Convert currencies using a server-side API (you will need to implement your own conversion logic or use an external conversion API).
+- Interactive client-side user interface.
+- Responsive design for all devices.
+
+## Prerequisites
+
+To run this project locally, you'll need:
+
+1. A web server running PHP, such as [XAMPP](https://www.apachefriends.org/index.html), [WAMP](https://www.wampserver.com/en/), or [MAMP](https://www.mamp.info/en/).
+2. A browser supporting JavaScript and modern web standards.
+
+## Installation
+
+1. Clone this repository or download the .zip file and extract its contents.
+2. Move the project folder to your web server's public directory.
+   - For XAMPP, move it to `<installation_path>/htdocs`.
+   - For WAMP, move it to `<installation_path>/www`.
+   - For MAMP, move it to `/Applications/MAMP/htdocs`.
+
+3. Start your web server and navigate to the project within your browser:
+   - For XAMPP or WAMP: `http://localhost/<project_folder_name>/`
+   - For MAMP: `http://localhost:8888/<project_folder_name>/`
+
+4. The currency converter web application should now be up and running.
+
+## Usage
+
+1. On the main page, enter the amount you want to convert in the 'Price' field.
+2. Choose the 'From' and 'To' currencies using the dropdown lists (you will need to add currency options in the `index.html` file).
+3. Press the 'Convert' button to perform the currency conversion.
+4. The converted amount will be displayed below the 'Result' heading.
+
+## Customization
+
+To implement your own conversion logic or integrate with an external conversion API, modify the `convert.php` file with your code or API call.
+
+## Contributing
+
+This is an open-source project, so feel free to fork and modify the code as necessary. If you have any suggestions for improvements, you can submit a pull request.
+
+## License
+
+This project is licensed under the MIT License. See [LICENSE](LICENSE.md) file for more information.
